@@ -1,0 +1,51 @@
+{
+  "api": "https://yugipedia.com/api.php",
+  "request": "?action=ask&format=json&query=%5B%5B___LANG___%20set%20prefix%3A%3A%2B%5D%5D%7C%3F___LANG___%20set%20prefix%3DPrefix%7Climit%3D100%7Coffset%3D___OFFSET___%7Ctype%3Dsimple&api_version=3",
+  "db_relative_path": "../db/set_data.db",
+  "languages": [
+    {
+      "lang": "English",
+      "type": "tcg"
+    },
+    {
+      "lang": "French",
+      "type": "tcg"
+    },
+    {
+      "lang": "French-Canadian",
+      "type": "tcg"
+    },
+    {
+      "lang": "German",
+      "type": "tcg"
+    },
+    {
+      "lang": "Italian",
+      "type": "tcg"
+    },
+    {
+      "lang": "Portuguese",
+      "type": "tcg"
+    },
+    {
+      "lang": "Spanish",
+      "type": "tcg"
+    },
+    {
+      "lang": "Japanese",
+      "type": "ocg"
+    },
+    {
+      "lang": "Asian-English",
+      "type": "ocg"
+    },
+    {
+      "lang": "Korean",
+      "type": "ocg"
+    },
+    {
+      "lang": "Chinese",
+      "type": "ocg"
+    }
+  ]
+}
